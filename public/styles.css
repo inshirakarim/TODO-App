@@ -1,0 +1,130 @@
+body {
+    /* height: 20vh; */
+    width: 100%;
+    background-color: #9ab5e1;
+    background-image: linear-gradient(315deg, #9ab5e1 0%, #f39fdc 74%);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ /*  @media (max-width: 480px) {
+    body {
+      background-image: url(pexels-photo-2941985.jpeg);
+    }
+  }
+  @media (min-width: 481px) and (max-width: 1024px) {
+    body {
+      background-image: url(pexels-photo-2941985.jpeg);
+    }
+  }
+  @media (min-width: 1025px) {
+    body {
+      background-image: url(pexels-photo-2941985.jpeg);
+    }
+  } */
+  .todo-area {
+    width: 500px;
+    height: inherit;
+    padding: 20px 10px;
+    border-radius: 20px;
+    /* box-shadow: 0 0 3px; */
+    display: flex;
+  }
+  .todo-title {
+font-family: 'Roboto Mono', monospace;
+margin: auto;
+align-items: center;
+  }
+  input {
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 8px;
+    border: black 2px;
+  }
+  .btn {
+    flex: 1;
+    width:30vh;
+    height: 40px;
+    transition: 0.3s;
+    font-size: 1rem;
+    padding: 8px;
+    background-color: #fff;
+    color: gray;
+    border: black solid 2px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .btn:hover {
+    background-color: #3498db;
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient(45deg,  #f32170,
+    #cf23cf, #eedd44);
+    background-size: 200% 200%;
+    animation: gradientChange 3s linear infinite; /* Adding animation for gradient change */
+
+  /* Animation keyframes */
+  @keyframes gradientChange {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  }
+  #mainArea {
+    width: 70%;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #mainArea div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: transparent;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    padding: 7px;
+  }
+  #mainArea span {
+    font-size: 1rem;
+    font-style: normal;
+    flex: 5;
+    margin-right: 15px;
+    padding: 1px;
+  }
+  #mainArea button {
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+
+  #mainArea button:hover {
+    background-color: #3498db;
+    transition: background-color 0.3s ease;
+    background-image: linear-gradient(45deg,  #f32170,
+    #cf23cf, #eedd44);
+    background-size: 200% 200%;
+    animation: gradientChange 3s linear infinite; /* Adding animation for gradient change */
+
+  /* Animation keyframes */
+  @keyframes gradientChange {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+  }
+  
