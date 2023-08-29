@@ -1,6 +1,6 @@
 # TODO App - REST API Documentation
 
-RESTful API Designed in Node.js for a straightforward TODO application.
+Restful API Designed in Node.js for a straightforward Desktop TODO application.
 
 ## Index
 
@@ -15,6 +15,7 @@ RESTful API Designed in Node.js for a straightforward TODO application.
 
 - [node & npm](http://nodejs.org)
 - [PostMan](https://www.getpostman.com/)
+- Runs on Google Chrome(https://www.google.com/)
 
 ## Installation
 
