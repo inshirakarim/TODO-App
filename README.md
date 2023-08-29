@@ -15,7 +15,7 @@ Restful API Designed in Node.js for a straightforward Desktop TODO application.
 
 - [node & npm](http://nodejs.org)
 - [PostMan](https://www.getpostman.com/)
-- [Runs on Google Chrome](https://www.google.com/)
+- [GoogleChrome](https://www.google.com/)
 
 ## Installation
 
