@@ -12,7 +12,7 @@ const deleteDatacallback = (todoId) => {
 
   const deleteTodo = (id) => {
     console.log(id);
-    fetch(`http://localhost:3000/todos/${id}`, {
+    fetch(`https://todo-app-oyyk.onrender.com/todos/${id}`, {
       method: "DELETE",
     }).then(() => deleteDatacallback(id.toString()));
   };
@@ -51,7 +51,7 @@ const deleteDatacallback = (todoId) => {
       };
 
      function getData() {
-      fetch("http://localhost:3000/todos", { 
+      fetch("https://todo-app-oyyk.onrender.com/todos", { 
       method:"GET",
       }).then(getDataCallback)
      };
@@ -95,7 +95,7 @@ resp.json().then(parsedResponse);
       if (title === "" || description === "") {
         alert("Please enter a title and description");
       } else {
-  fetch("http://localhost:3000/todos", { 
+  fetch("https://todo-app-oyyk.onrender.com/todos", { 
   method:"POST",
   body: JSON.stringify({
       title: title,
